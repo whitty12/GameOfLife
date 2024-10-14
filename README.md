@@ -29,12 +29,12 @@ Players can click on a cell to set it to live or dead as well as pause or reset 
 - Controller
 
 **Board Methods:**
--initializeBoard()
--getBoardState()
--updateBoard()
--resetBoard()
--incrementGeneration()
--displayGeneration()
+- initializeBoard()
+- getBoardState()
+- updateBoard()
+- resetBoard()
+- incrementGeneration()
+- displayGeneration()
   
 **Cell Methods:**
 - newCell()
