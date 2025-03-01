@@ -1,0 +1,24 @@
+This project, written in Java, implements Conway's Game of Life. 
+
+From Belt of Orion's page:
+
+What is the Game of Life?
+The Game of Life is a cellular automaton devised by the british mathematician John Horton Conway in 1970. 
+It was popularised by Martin Gardner in his October 1970 column of "Mathematical Games" in the "Scientific American" magazine. 
+
+A notable property of the special rule set used by Conway's "Game of Life" is it's Turing completeness. 
+The Turing completeness is a property that describes that a programming language, a simulation or a logical system is in principle suitable to solve every computing problem. 
+The programming of the "Game of Life" would be done with patterns, which then interact with each other in the simulation. 
+
+You can read more about Game of Life at: https://beltoforion.de/en/game_of_life/
+
+Dependencies:
+  - Java
+
+Rules:
+  In the Game of Life each grid cell can have either one of two states: dead or alive. The Game of Life is controlled by four simple rules which are applied to each grid cell in the simulation domain:
+
+  - A live cell dies if it has fewer than two live neighbors.
+  - A live cell with two or three live neighbors lives on to the next generation.
+  - A live cell with more than three live neighbors dies.
+  - A dead cell will be brought back to live if it has exactly three live neighbors.
